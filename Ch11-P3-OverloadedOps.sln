@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch11-P3-OverloadedOps", "Ch11-P3-OverloadedOps\Ch11-P3-OverloadedOps.csproj", "{6EE97605-1726-4BE7-B518-7F02A4A823CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EE97605-1726-4BE7-B518-7F02A4A823CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE97605-1726-4BE7-B518-7F02A4A823CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE97605-1726-4BE7-B518-7F02A4A823CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE97605-1726-4BE7-B518-7F02A4A823CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F5C1DE2-874F-4B7F-BE0F-0447769458B7}
+	EndGlobalSection
+EndGlobal
