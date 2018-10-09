@@ -49,7 +49,33 @@ namespace Ch11_P3_OverloadedOps
 
             #endregion
 
+            #region += and –= Operators
 
+            //Point ptOne = new Point(100, 100);
+            //Point ptTwo = new Point(40, 40);
+            //// Freebie +=
+            //Point ptThree = new Point(90, 5);
+            //Console.WriteLine("ptThree = {0}", ptThree);
+            //Console.WriteLine("ptThree += ptTwo: {0}", ptThree += ptTwo);
+            //// Freebie -=
+            //Point ptFour = new Point(0, 500);
+            //Console.WriteLine("ptFour = {0}", ptFour);
+            //Console.WriteLine("ptFour -= ptThree: {0}", ptFour -= ptThree);
+
+            #endregion
+
+            #region Overloading Unary Operators
+
+            // Applying the ++ and -- unary operators to a Point.
+            Point ptFive = new Point(1, 1);
+            Console.WriteLine("++ptFive = {0}", ++ptFive); // [2, 2]
+            Console.WriteLine("--ptFive = {0}", --ptFive); // [1, 1]
+            
+            // Apply same operators as postincrement/decrement.
+            Point ptSix = new Point(20, 20);
+            Console.WriteLine("ptSix++ = {0}", ptSix++); // [20, 20]
+            Console.WriteLine("ptSix-- = {0}", ptSix--); // [21, 21]
+            #endregion
 
             Console.ReadLine();
         }

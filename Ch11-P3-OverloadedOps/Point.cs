@@ -17,6 +17,11 @@ namespace Ch11_P3_OverloadedOps
         }
         public override string ToString() => $"[{this.X}, {this.Y}]";
 
+        // Add 1 to the X/Y values for the incoming Point.
+        public static Point operator ++(Point p1) => new Point(p1.X + 1, p1.Y + 1);
+        // Subtract 1 from the X/Y values for the incoming Point.
+        public static Point operator --(Point p1) => new Point(p1.X - 1, p1.Y - 1);
+
         // overload operator +
         public static Point operator +(Point p1, int change)
         {
