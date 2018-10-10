@@ -79,14 +79,25 @@ namespace Ch11_P3_OverloadedOps
 
             #region Overloading Equality Operator
 
+            //// Make two points.
+            //Point ptOne = new Point(100, 100);
+            //Point ptTwo = new Point(100, 100);
+
+
+
+            //Console.WriteLine("ptOne == ptTwo : {0}", ptOne == ptTwo);
+            //Console.WriteLine("ptOne != ptTwo : {0}", ptOne != ptTwo);
+
+            #endregion
+
+            #region Overloading Comparison Operators
+
             // Make two points.
             Point ptOne = new Point(100, 100);
             Point ptTwo = new Point(100, 100);
 
-
-
-            Console.WriteLine("ptOne == ptTwo : {0}", ptOne == ptTwo);
-            Console.WriteLine("ptOne != ptTwo : {0}", ptOne != ptTwo);
+            Console.WriteLine("ptOne < ptTwo : {0}", ptOne < ptTwo);
+            Console.WriteLine("ptOne > ptTwo : {0}", ptOne > ptTwo);
 
             #endregion
 
