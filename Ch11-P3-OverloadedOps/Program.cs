@@ -66,15 +66,28 @@ namespace Ch11_P3_OverloadedOps
 
             #region Overloading Unary Operators
 
-            // Applying the ++ and -- unary operators to a Point.
-            Point ptFive = new Point(1, 1);
-            Console.WriteLine("++ptFive = {0}", ++ptFive); // [2, 2]
-            Console.WriteLine("--ptFive = {0}", --ptFive); // [1, 1]
-            
-            // Apply same operators as postincrement/decrement.
-            Point ptSix = new Point(20, 20);
-            Console.WriteLine("ptSix++ = {0}", ptSix++); // [20, 20]
-            Console.WriteLine("ptSix-- = {0}", ptSix--); // [21, 21]
+            //// Applying the ++ and -- unary operators to a Point.
+            //Point ptFive = new Point(1, 1);
+            //Console.WriteLine("++ptFive = {0}", ++ptFive); // [2, 2]
+            //Console.WriteLine("--ptFive = {0}", --ptFive); // [1, 1]
+
+            //// Apply same operators as postincrement/decrement.
+            //Point ptSix = new Point(20, 20);
+            //Console.WriteLine("ptSix++ = {0}", ptSix++); // [20, 20]
+            //Console.WriteLine("ptSix-- = {0}", ptSix--); // [21, 21]
+            #endregion
+
+            #region Overloading Equality Operator
+
+            // Make two points.
+            Point ptOne = new Point(100, 100);
+            Point ptTwo = new Point(100, 100);
+
+
+
+            Console.WriteLine("ptOne == ptTwo : {0}", ptOne == ptTwo);
+            Console.WriteLine("ptOne != ptTwo : {0}", ptOne != ptTwo);
+
             #endregion
 
             Console.ReadLine();
