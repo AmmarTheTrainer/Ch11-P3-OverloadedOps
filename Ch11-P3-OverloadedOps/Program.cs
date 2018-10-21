@@ -14,15 +14,15 @@ namespace Ch11_P3_OverloadedOps
 
             #region Overlaoding example
 
-            // The + operator with ints.
-            int a = 100;
-            int b = 240;
-            int c = a + b; // c is now 340
+            //// The + operator with ints.
+            //int a = 100;
+            //int b = 240;
+            //int c = a + b; // c is now 340
 
-            // + operator with strings.
-            string s1 = "Hello";
-            string s2 = " world!";
-            string s3 = s1 + s2; // s3 is now "Hello World!"
+            //// + operator with strings.
+            //string s1 = "Hello";
+            //string s2 = " world!";
+            //string s3 = s1 + s2; // s3 is now "Hello World!"
 
             #endregion
 
@@ -79,14 +79,14 @@ namespace Ch11_P3_OverloadedOps
 
             #region Overloading Equality Operator
 
-            //// Make two points.
-            //Point ptOne = new Point(100, 100);
-            //Point ptTwo = new Point(100, 100);
+            // Make two points.
+            Point ptOne = new Point(100, 100);
+            Point ptTwo = new Point(100, 100);
 
 
 
-            //Console.WriteLine("ptOne == ptTwo : {0}", ptOne == ptTwo);
-            //Console.WriteLine("ptOne != ptTwo : {0}", ptOne != ptTwo);
+            Console.WriteLine("ptOne == ptTwo : {0}", ptOne == ptTwo);
+            Console.WriteLine("ptOne != ptTwo : {0}", ptOne != ptTwo);
 
             #endregion
 
